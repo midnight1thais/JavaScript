@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <script src="main.js" defer></script>
+
+    
+    <title>Ler Mais/Menos</title>
+</head>
+<body>
+    
+    <!-- CARD 1 -->
+    <div class="card">
+        <!-- ICON 1 -->
+        <div class="icon">
+            <img src="../JavaScript/images/icon1.svg" alt="Spaceship">
+        </div>
+
+        <!-- CONTENT 1 -->
+        <div class="content">
+            <h3>Atividade 1 - Array</h3>
+            <p id="text">
+                Faça um programa, seguindo os passos: 
+                <p style="display: block;"> 1. Escreva uma função que receba 4 parâmetros que correspondem às informações de uma pessoa: o nome, a idade, endereço e uma profissão. Ela deve retornar uma string que unifique todas as informações da pessoa em uma só mensagem. Exemplo: Eu sou (nome), tenho (idade) anos, moro em (endereço) e sou (profissão).</p>
+                <p style="display: block;"> 2. Escreva uma função que receba 2 números como parâmentros, e, dentro da função, faça a soma das duas entradas e retorne o resultado. Invoque a função e imprima no console o resultado. </p>
+                <p style="display: block;"> 3. Faça uma função que recebe 2 números e retorne um booleano que informa se o primeiro número é **maior ou igual** ao segundo.</p>
+                <p style="display: block;"> 4. Escreva uma função que receba um número e devolva um booleano indicando se ele é par ou não.</p>
+                <p style="display: block;"> 5. Faça uma função que recebe uma mensagem (`string`) como parâmetro e imprima o tamanho dessa mensagem, juntamente com uma versão dela em letras maiúsculas.</p>
+                <p style="display: block;"> DESAFIO = Crie uma função para cada uma das operações básicas (soma, subtração, multiplicação e divisão). Em seguida, peça para o usuário inserir dois números e chame essas 4 funções com esses valores inputados pelo usuário .</p>
+                
+            </p>
+        </div>
+
+        <!-- READ MORE/LESS BUTTON -->
+        <button id="action-button" onclick="at1()">Inicie Atividade 1</button>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="card">
+        <!-- ICON 2 -->
+        <div class="icon">
+            <img src="../JavaScript/images/icon2.svg" alt="Spaceship">
+        </div>
+
+        <!-- CONTENT 2 -->
+        <div class="content">
+            <h3>Atividade 2 - Funções</h3>
+            <p id="text">
+                <p style="display: block;">1. Escreva uma função que pede ao usuário a altura e a largura (nessa ordem) de um retângulo e imprime no console a área do retângulo.</p>
+                <p style="display: block;">2. Escreva uma função que pede ao usuário o ano atual e seu ano de nascimento e imprima no console sua idade.</p>
+                <p style="display: block;">3. Escreva uma função que recebe o peso em kg e a altura em metros de uma pessoa e retorna o seu IMC (Índice de Massa Corpórea).</p>
+                <p style="display: block;">4. Escreva uma função que recebe duas strings e retorna um booleano (true ou false) indicando se elas possuem o mesmo tamanho.</p>
+                <p style="display: block;">5. Escreva uma função que recebe um array e retorna o último elemento.</p>
+                <p style="display: block;">6. Escreva uma função que recebe duas strings e retorna um booleano (true ou false) indicando se elas são iguais, desconsiderando letras maiúsculas ou minúsculas.</p>
+                <p style="display: block;">DESAFIO = Escreva uma função que pergunta ao usuário o ano atual, o ano de nascimento de uma pessoa, e o ano em que sua carteira de identidade foi emitida (nessa ordem). A função deve imprimir no console um booleano (true ou false) que indica se a carteira precisa ser renovada ou não. A carteira precisa ser renovada segundo os seguintes critérios: 
+                    <p style="display: block;"> a. Para pessoas com menos de 20 anos, ou exatamente 20 anos, deve ser renovada de 5 em 5 anos (se for exatamente 5 anos, deve ser renovada). </p>
+                    <p style="display: block;"> b. Para pessoas entre 20 e 50 anos, ou exatamente 50, deve ser renovada de 10 em 10 anos (se for exatamente 10 anos, deve ser renovada).</p> 
+                    <p style="display: block;"> c. Para pessoas acima dos 50 anos, deve ser renovada de 15 em 15 anos.</p>
+                </p>
+        </div>
+
+        <!-- READ MORE/LESS BUTTON -->
+        <button id="action-button" onclick="at2()">Inicie Atividade 2</button>
+    
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="card">
+        <!-- ICON 3 -->
+        <div class="icon">
+            <img src="../JavaScript/images/icon1.svg" alt="Spaceship">
+        </div>
+
+        <!-- CONTENT 3 -->
+        <div class="content">
+            <h3>Atividade 3 - Objeto</h3>
+            <p id="text">
+                <p style="display: block;">1. Crie uma variável de escopo global que guarde um `array` vazio chamada `carrinho`</p>
+                <p style="display: block;">2. Crie três novos objetos que representem frutas de um sacolão. Eles devem ter as seguintes propriedades: nome (`string`) e disponibilidade (`boolean` - devem começar como `true`)</p>
+                <p style="display: block;">3. Crie uma função que **receba** um objeto fruta por **parâmetro** e coloque-a dentro do array de `carrinho`. Invoque essa função passando os três objetos criados. </p>
+                <p style="display: block;">4. Imprima a variável `carrinho` e garanta que ela agora seja um **array preenchido com três objetos.**</p>
+                <p style="display: block;"> DESAFIO = Crie um função que pergunte ao usuário seu nome, sua idade e sua profissão e depois imprima no console um objeto com essas propriedades. Depois de imprimir o novo objeto, imprima também o tipo dele para garantir que é um objeto.
+                </p>
+
+            </p>
+        </div>
+
+        <!-- READ MORE/LESS BUTTON -->
+        <button id="action-button" onclick="at3()">Inicie Atividade 3</button>
+    
+    </div>
+
+    <!-- CARD 4 -->
+    <div class="card">
+        <!-- ICON 4 -->
+        <div class="icon">
+            <img src="../JavaScript/images/icon2.svg" alt="Spaceship">
+        </div>
+
+        <!-- CONTENT 4 -->
+        <div class="content">
+            <h3>Atividade 4 - Condições</h3>
+            <p id="text">
+                <p style="display: block;">1. Faça um programa que pergunta ao usuário qual a idade dele e imprima no console se ele/ela pode dirigir (apenas maiores de idade). Veja se essa idade do usuário corresponde à idade mínima que permite dirigir. Se sim, imprima no console `"Você pode dirigir"`, caso contrário, imprima `"Você não pode dirigir."`</p>
+                <p style="display: block;"> 2. Faça um programa que verifica que turno do dia um aluno estuda. Peça para digitar M (matutino) ou V (Vespertino) ou N (Noturno). Imprima no console a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!". Utilize o bloco if/else </p>
+                <p style="display: block;"> 3. Repita o exercício anterior, mas utilizando a estrutura de switch case agora.</p>
+                <p style="display: block;">4. Considere a situação: você vai ao cinema com um amigo ou amiga, porém ele/ela só assistirá a um filme com você se ele for do gênero fantasia e se o ingresso estiver abaixo de 15 reais. Faça um código que pergunta ao usuário qual o gênero de filme que vão assistir e outra pergunta sobre o preço do ingresso, então verifique se seu amigo ou amiga vai topar assistir o filme. Caso positivo, imprima no console a mensagem: "Bom filme!", caso contrário, imprima "Escolha outro filme "</p>
+                <p style="display: block;"> 5. Modifique o código do exercício 4 de escrita de código para, antes de imprimir a mensagem "Bom filme!", pergunte ao usuário, pelo prompt qual lanchinho ele vai comprar (pipoca, chocolate, doces, etc) e imprima no console as mensagens "Bom filme!" e "Aproveite o seu [LANCHINHO]", trocando [LANCHINHO] pelo que o usuário colocou no input.
+                </p>
+
+            </p>
+        </div>
+
+        <!-- READ MORE/LESS BUTTON -->
+        <button id="action-button" onclick="at4()">Inicie Atividade 4</button>
+    
+    </div>
+
+    <!-- CARD 5 -->
+    <div class="card">
+        <!-- ICON 4 -->
+        <div class="icon">
+            <img src="../JavaScript/images/icon2.svg" alt="Spaceship">
+        </div>
+
+        <!-- CONTENT 4 -->
+        <div class="content">
+            <h3>Jogo Adivinhação</h3>
+            <p id="text">
+                O objetivo é criar um jogo em que o usuário adivinhe qual é o número pensado. Além disso, deve ser fornecido somente três chances para descobrir o número.
+            </p>
+        </div>
+
+        <!-- READ MORE/LESS BUTTON -->
+        <button id="action-button" onclick="at5()">Inicie o Jogo</button>
+    
+    </div>
+
+
+</body>
+</html>

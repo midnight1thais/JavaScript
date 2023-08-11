@@ -1,5 +1,6 @@
 //-------Atividade Array
 // 1. Faça um programa, seguindo os passos:
+
     
 //a) Crie um array vazio e guarde-o em uma variável, chamada `tarefas`
 
